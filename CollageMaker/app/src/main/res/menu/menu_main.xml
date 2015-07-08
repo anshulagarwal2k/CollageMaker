@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/plus"
+        android:orderInCategory="100"
+        android:title="@string/action_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/download"
+        android:orderInCategory="100"
+        android:title="@string/action_save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_background"
+        android:icon="@drawable/ic_background"
+        android:orderInCategory="100"
+        android:title="@string/action_background"
+        app:showAsAction="always" />
+</menu>
