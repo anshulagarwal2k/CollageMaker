@@ -10,6 +10,21 @@
         <item>@color/background_color_6</item>
         <item>@color/background_color_7</item>
 
+        <item>@color/background_color_9</item>
+        <item>@color/background_color_10</item>
+
+        <item>@color/background_color_11</item>
+        <item>@color/background_color_12</item>
+        <item>@color/background_color_13</item>
+        <item>@color/background_color_14</item>
+        <item>@color/background_color_15</item>
+        <item>@color/background_color_16</item>
+        <item>@color/background_color_17</item>
+
+        <item>@color/background_color_18</item>
+        <item>@color/background_color_19</item>
+        <item>@color/background_color_20</item>
+        <item>@color/background_color_21</item>
 
     </integer-array>
 

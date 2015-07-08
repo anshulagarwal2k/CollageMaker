@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -70,7 +69,7 @@ public class MainActivity extends ActionBarActivity {
             backgroundColor = getResources().getIntArray(R.array.background_color);
         }
         AlertDialog.Builder mAlertBuilder = new AlertDialog.Builder(this);
-        LinearLayout linearLayout = (LinearLayout) getLayoutInflater().inflate(R.layout.backgroun_grid, null);
+        LinearLayout linearLayout = (LinearLayout) getLayoutInflater().inflate(R.layout.background_grid, null);
         GridView gridView = (GridView) linearLayout.findViewById(R.id.grid_view);
         gridView.setAdapter(new GridAdapter());
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
